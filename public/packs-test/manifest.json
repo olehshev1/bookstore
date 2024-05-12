@@ -1,0 +1,50 @@
+{
+  "application.js": "/packs-test/js/application-1d05ba885ae755030a87.js",
+  "application.js.map": "/packs-test/js/application-1d05ba885ae755030a87.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs-test/js/application-1d05ba885ae755030a87.js"
+      ],
+      "js.map": [
+        "/packs-test/js/application-1d05ba885ae755030a87.js.map"
+      ]
+    }
+  },
+  "media/bootstrap/glyphicons-halflings-regular.eot": "/packs-test/media/bootstrap/glyphicons-halflings-regular-f4769f9b.eot",
+  "media/bootstrap/glyphicons-halflings-regular.svg": "/packs-test/media/bootstrap/glyphicons-halflings-regular-89889688.svg",
+  "media/bootstrap/glyphicons-halflings-regular.ttf": "/packs-test/media/bootstrap/glyphicons-halflings-regular-e18bbf61.ttf",
+  "media/bootstrap/glyphicons-halflings-regular.woff": "/packs-test/media/bootstrap/glyphicons-halflings-regular-fa277232.woff",
+  "media/bootstrap/glyphicons-halflings-regular.woff2": "/packs-test/media/bootstrap/glyphicons-halflings-regular-448c34a5.woff2",
+  "media/files/open-sans-all-400-italic.woff": "/packs-test/media/files/open-sans-all-400-italic-391454f0.woff",
+  "media/files/open-sans-all-400-normal.woff": "/packs-test/media/files/open-sans-all-400-normal-e15b8743.woff",
+  "media/files/open-sans-cyrillic-400-italic.woff2": "/packs-test/media/files/open-sans-cyrillic-400-italic-a034cc0a.woff2",
+  "media/files/open-sans-cyrillic-400-normal.woff2": "/packs-test/media/files/open-sans-cyrillic-400-normal-0c4fa4c6.woff2",
+  "media/files/open-sans-cyrillic-ext-400-italic.woff2": "/packs-test/media/files/open-sans-cyrillic-ext-400-italic-bcadc143.woff2",
+  "media/files/open-sans-cyrillic-ext-400-normal.woff2": "/packs-test/media/files/open-sans-cyrillic-ext-400-normal-e755c8ea.woff2",
+  "media/files/open-sans-greek-400-italic.woff2": "/packs-test/media/files/open-sans-greek-400-italic-7a74ca66.woff2",
+  "media/files/open-sans-greek-400-normal.woff2": "/packs-test/media/files/open-sans-greek-400-normal-7aed216c.woff2",
+  "media/files/open-sans-greek-ext-400-italic.woff2": "/packs-test/media/files/open-sans-greek-ext-400-italic-25f5806e.woff2",
+  "media/files/open-sans-greek-ext-400-normal.woff2": "/packs-test/media/files/open-sans-greek-ext-400-normal-a47b9667.woff2",
+  "media/files/open-sans-latin-400-italic.woff2": "/packs-test/media/files/open-sans-latin-400-italic-b61a9055.woff2",
+  "media/files/open-sans-latin-400-normal.woff2": "/packs-test/media/files/open-sans-latin-400-normal-33543c5c.woff2",
+  "media/files/open-sans-latin-ext-400-italic.woff2": "/packs-test/media/files/open-sans-latin-ext-400-italic-6cd1984c.woff2",
+  "media/files/open-sans-latin-ext-400-normal.woff2": "/packs-test/media/files/open-sans-latin-ext-400-normal-6923b196.woff2",
+  "media/files/open-sans-vietnamese-400-italic.woff2": "/packs-test/media/files/open-sans-vietnamese-400-italic-b4c36f9d.woff2",
+  "media/files/open-sans-vietnamese-400-normal.woff2": "/packs-test/media/files/open-sans-vietnamese-400-normal-c080b58a.woff2",
+  "media/webfonts/fa-brands-400.eot": "/packs-test/media/webfonts/fa-brands-400-0fabb660.eot",
+  "media/webfonts/fa-brands-400.svg": "/packs-test/media/webfonts/fa-brands-400-ccfdb9dc.svg",
+  "media/webfonts/fa-brands-400.ttf": "/packs-test/media/webfonts/fa-brands-400-085b1dd8.ttf",
+  "media/webfonts/fa-brands-400.woff": "/packs-test/media/webfonts/fa-brands-400-dc0bd022.woff",
+  "media/webfonts/fa-brands-400.woff2": "/packs-test/media/webfonts/fa-brands-400-cac68c83.woff2",
+  "media/webfonts/fa-regular-400.eot": "/packs-test/media/webfonts/fa-regular-400-ad3a7c0d.eot",
+  "media/webfonts/fa-regular-400.svg": "/packs-test/media/webfonts/fa-regular-400-e75dfd90.svg",
+  "media/webfonts/fa-regular-400.ttf": "/packs-test/media/webfonts/fa-regular-400-1a78af41.ttf",
+  "media/webfonts/fa-regular-400.woff": "/packs-test/media/webfonts/fa-regular-400-05b53beb.woff",
+  "media/webfonts/fa-regular-400.woff2": "/packs-test/media/webfonts/fa-regular-400-3a3398a6.woff2",
+  "media/webfonts/fa-solid-900.eot": "/packs-test/media/webfonts/fa-solid-900-89bd2e38.eot",
+  "media/webfonts/fa-solid-900.svg": "/packs-test/media/webfonts/fa-solid-900-03ba7cb7.svg",
+  "media/webfonts/fa-solid-900.ttf": "/packs-test/media/webfonts/fa-solid-900-781e85bb.ttf",
+  "media/webfonts/fa-solid-900.woff": "/packs-test/media/webfonts/fa-solid-900-ee09ad75.woff",
+  "media/webfonts/fa-solid-900.woff2": "/packs-test/media/webfonts/fa-solid-900-c500da19.woff2"
+}
