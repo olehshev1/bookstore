@@ -1,33 +1,362 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  title: 'BookStoreOs'
+  email: 'support@bookstore.com'
+  phone: '(555)-555-5555'
+  back: 'Back to results'
+  EUR: '€'
+  top_menu:
+    home: 'Home'
+    shop: 'Shop'
+  homes:
+    index:
+      welcome: 'Welcome to our amazing Bookstore!'
+      welcome_description: 'We pore through hundreds of new books each month and select the five best we can find to share with our members.'
+      get_started: 'Get Started'
+      slider:
+        by_now: 'Buy Now'
+        previous: 'Previous'
+        next: 'Next'
+      best_sellers:
+        best_sellers: 'Best Sellers'
+  shared:
+    header:
+      title: 'BookStoreOs'
+      my_account: 'My account'
+      sign_up: 'Sign Up'
+      log_in: 'Log In'
+      log_out: 'Log Out'
+      orders: 'Orders'
+      settings: 'Settings'
+    media:
+      desktop:
+        menu:
+          my_account: 'My account'
+          sign_up: 'Sign Up'
+          log_in: 'Log In'
+          log_out: 'Log Out'
+          orders: 'Orders'
+          settings: 'Settings'
+      mobile:
+        menu:
+          my_account: 'My account'
+          sign_up: 'Sign Up'
+          log_in: 'Log In'
+          log_out: 'Log Out'
+          orders: 'Orders'
+          settings: 'Settings'
+
+    footer:
+      home: 'Home'
+      shop: 'Shop'
+      orders: 'Orders'
+      settings: 'Settings'
+  books:
+    index:
+      title: 'Catalog'
+      all: 'All'
+      filter:
+        newest_first: 'Newest first'
+        popular_first: 'Popular first'
+        price_low: 'Price: Low to hight'
+        price_hight: 'Price: Hight to low'
+        name_a_z: 'Title: A - Z'
+        name_z_a: 'Title: Z - A'
+      filter by category: 'Filter by category'
+      sort by: 'Sort by'
+      view more: 'View More'
+    show:
+    book:
+      description: 'Description'
+      read_more: 'Read More'
+      year_of_publication: 'Year of publication'
+      dimensions: 'Dimensions'
+      materials: 'Materials'
+      review:
+        write_review: 'Write a Review'
+        reviews: 'Reviews (%{count})'
+        verified_reviewer: 'Verified Reviewer'
+    form_book:
+      add_to_cart: 'Add to Cart'
+    comment:
+      form:
+        score: 'Score'
+        title: 'Title'
+        review: 'Review'
+        post: 'Post'
+      success: 'Thanks for Review. It will be published as soon as Admin will approve it.'
+  devise:
+    password_validate: 'must contain at least 1 uppercase, at least 1 lowercase, at least 1 number'
+    email_wrong_format: 'domain part must be like %{format}'
+    email_size_error: 'local part should be less then %{max_size}'
+    email_sides_error: 'local part can not start or end with symbols: %{wrong_symbols}'
+    email_validate: 'can not  contain symbols: %{symbols}'
+    wrong_format: "domain part must be like '%{format_example}'"
+    wrong_format_email: "format email must be like '%{format_example}'"
+  validate:
+    address:
+      big_letter: 'must write with big letter'
+      wrong_number: 'wrong number'
+      start_plus: "can contain only numbers and must start with '+'"
+      name_format: 'can contain only letters'
+      address_format: "can contain letters, numbers and '-'"
+      only_numbers: 'must be only numbers'
+      mm_yy: 'should be in MM/YY format and contain only numbers'
+      wrong_size: 'maximum size is %{size}'
+    credit_card:
+      invalid_credit_card: 'Please enter a valid credit card number - size %{size}'
+    email:
+      email_already_used: ' %{email} has already been used'
+    passwd:
+      check_confirm_password: 'must match to your new password'
+      check_old_password: 'must match to your password'
+    comment:
+      wrong_size: 'maximum size is %{size}'
+      comment_format: "can contain letters, numbers one of !#$%&'*+-/=?^_`{|}~."
+
+  settings:
+    index:
+      settings: 'Settings'
+      s_email: 'Email'
+      password: 'Password'
+      remove_account: 'Remove Account'
+      address: 'Address'
+      privacy: 'Privacy'
+    media:
+      desktop:
+        tabpanel:
+          billing_address: 'Billing Address'
+          shipping_address: 'Shipping Address'
+    remove_account:
+      please_remove_account: 'Please Remove My Account'
+      data_will_lost: 'I understand that all data will be lost'
+      save: 'Save'
+    password:
+      old_password: 'Old Password'
+      password: 'New Password'
+      confirm_password: 'Confirm Password'
+      save: 'Save'
+    email:
+      enter_email: 'Enter Email'
+      enter_your_email: 'Enter your email'
+      save: 'Save'
+    new:
+      updated: "%{type} address updated"
+      email_updated: "%{email} email updated"
+      password_updated: "Your password successfully changed!"
+      account_removed: 'Your account successfully removed'
+      account_removed_error: 'Your account can not be removed'
+      account_removed_confirm: 'Please confirm to remove your account'
+  addresses:
+    new:
+      form:
+        save: 'Save'
+    form:
+      first_name: 'First Name'
+      please_enter_first_name: 'Please enter your first name'
+      last_name: 'Last Name'
+      address: 'Address'
+      city: 'City'
+      zip: 'Zip'
+      country: 'Country'
+      select_country: 'Select a country'
+      phone: 'Phone'
+      example_phone: 'Example +355 66 123 4567'
+  admin:
+    dashboard:
+      users_count: 'Count of users: %{count}'
+      books_count: 'Count of books: %{count}'
+      authors_count: 'Count of authors: %{count}'
+      categories_count: 'Count of categories: %{count}'
+      comment_count: 'Count of comments: %{count}'
+    book:
+      price: '€ %{price}'
+      new: 'Add new book'
+    upload_book_cover: 'Upload book cover'
+    comment:
+      approve: 'Approve'
+      reject: 'Reject'
+      destroy: 'Destroy'
+    coupon:
+      discount: 'Discount '
+      code: 'Code '
+    orders:
+      order_updated: 'Order status updated!'
+      order_updating_fail: 'Something went wrong'
+      completed_at_column: 'Completed At'
+      in_delivery_status: 'Set status in delivery'
+      delivered_status: 'Set status delivered'
+      canceled_status: 'Set status canceled'
+
+
+
+  carts:
+    index:
+      name_cart: 'Cart'
+      empty_cart: 'Your cart is empty'
+      back_to_store: 'Back to store'
+      checkout: 'Checkout'
+    order_total:
+      order_summary: 'Order Summary'
+      subtotal: 'Subtotal:'
+      coupon: 'Coupon:'
+      order_total: 'Order Total:'
+    coupon_form:
+      enter_coupon: 'Enter Your Coupon Code '
+      apply_coupon: 'Apply Coupon '
+    media:
+     desktop:
+        item_form:
+          product: 'Product'
+          price: 'Price'
+          quantity: 'Quantity'
+          subtotal: 'SubTotal'
+     mobile:
+        item_form:
+          price: 'Price'
+          quantity: 'Quantity'
+          subtotal: 'SubTotal'
+  checkouts:
+    email_login:
+      returning_customer: 'Returning Customer'
+      or: 'or'
+      log_in_with_password: 'Log In with Password'
+      forgot_password: ' Forgot password?'
+      new_customer: 'New Customer'
+      quick_register: 'Quick Register'
+      password_later: 'You’ll be able to create password later'
+      continue_to_checkout: 'Continue to Checkout'
+      enter_email: 'Enter email'
+      password: 'Password'
+    address:
+      checkout: 'Checkout'
+      billing_address: 'Billing Address'
+      shipping_address: 'Shipping Address'
+      fields_required: 'all fields are required'
+      save_and_continue: 'Save and Continue'
+      use_billing_address: 'Use Billing Address'
+    order_summary:
+      order_summary: 'Order Summary'
+      subtotal: 'Subtotal:'
+      coupon: 'Coupon:'
+      shipping: 'Shipping:'
+      order_total: 'Order Total:'
+    shipping:
+      checkout: 'Checkout'
+      shipping: 'Shipping'
+    steps:
+      address: 'Address'
+      choose_delivery: 'Delivery'
+      pay: 'Payment'
+      confirmation: 'Confirm'
+      completed: 'Complete'
+    media:
+      desktop:
+        shipping_form:
+          method: 'Method'
+          days: 'Days'
+          price: 'Price'
+          save_and_continue: 'Save and Continue'
+        confirm_items:
+          book: 'Book'
+          price: 'Price'
+          quantity: 'Quantity'
+          total: 'Total'
+        confirm_address:
+          edit: 'Edit'
+          phone: 'Phone'
+        confirm_shipping:
+          edit: 'Edit'
+        confirm_payment:
+          edit: 'Edit'
+      mobile:
+        shipping_form:
+          method: 'Method'
+          days: 'Days'
+          price: 'Price'
+          save_and_continue: 'Save and Continue'
+        confirm_items:
+          price: 'Price'
+          quantity: 'Quantity'
+          subtotal: 'SubTotal'
+    payment:
+      checkout: 'Checkout'
+      credit_card: 'Credit Card'
+      card_number: 'Card Number'
+      name_on_card: 'Name on Card'
+      mm_yy: 'MM / YY'
+      cvv: 'CVV'
+      cvv_hint_message: '3-digit security code, usually found on the back of your card. American Express cards has 4-digit code, located on the front.'
+      save_and_continue: 'Save and Continue'
+    confirm:
+      checkout: 'Checkout'
+      place_order: 'Place Order'
+      shipping_address: 'Shipping Address'
+      billing_address: 'Billing Address'
+      shipments: 'Shipments'
+      payment_information: 'Payment Information'
+    complete:
+      thank_you_for_order: 'Thank You for your Order!'
+      send_massage_email_in_complete: 'An order confirmation has been has been sent to %{email}'
+      back_to_store: 'Back to Store'
+  orders:
+    index:
+      my_orders: 'My Orders'
+      sort_by: 'Sort By'
+    filter:
+      waiting_for_processing: 'Waiting for processing'
+      in_delivery: 'In delivery'
+      delivered: 'Delivered'
+      canceled: 'Canceled'
+    show:
+      order: 'Order'
+      shipping_address: 'Shipping Address'
+      billing_address: 'Billing Address'
+      shipments: 'Shipments'
+      payment_information: 'Payment Information'
+      order_summary: 'Order Summary'
+    order_summary:
+      order_summary: 'Order Summary'
+      subtotal: 'Subtotal'
+      coupon: 'Coupon'
+      shipping: 'Shipping'
+      order_total: 'Order Total'
+
+    media:
+      desktop:
+        orders:
+          there_is_no_orders: 'There is no orders with this status'
+          number: 'Number'
+          completed_at: 'Completed at'
+          status: 'Status'
+          total: 'Total'
+        order_address:
+          phone: 'Phone'
+        order_items:
+          book: 'Book'
+          price: 'Price'
+          quantity: 'Quantity'
+          total: 'Total'
+
+
+      mobile:
+        order_items:
+          book: 'Book'
+          price: 'Price'
+          quantity: 'Quantity'
+          subtotal: 'SubTotal'
+        orders:
+          there_is_no_orders: 'There is no orders with this status'
+          number: 'Number'
+          completed_at: 'Completed at'
+          status: 'Status'
+          total: 'Total'
+
+  controllers:
+    added_in_cart: 'Added in cart'
+    deleted_from_cart: 'Successfully delete book from cart'
+    wrong_coupon: 'Wrong coupon'
+    used_coupon: 'Coupon already used'
+    applied_coupon: 'Coupon was applied successfully'
+  order_mailer:
+    thanks_message: 'Thank you for your order. We will wait for your visiting again!'
+
